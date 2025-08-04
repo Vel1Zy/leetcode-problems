@@ -1,0 +1,1 @@
+function newNode(val, next) {}
