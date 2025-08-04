@@ -3,6 +3,22 @@
  * @return {string}
  */
 
+//solution 4 - using sorted array to find the prefix
+var longestCommonPrefix = function (strs) {
+  if (!strs || strs.length === 0) return "";
+
+  strs.sort();
+  let ans = strs[0];
+  let lastStr = strs[strs.length - 1];
+  let i = 0;
+  while (i < ans.length && ans[i] == lastStr[i]) {
+    i++;
+  }
+  return ans.substring(0, i);
+
+  //return a substr (0, x);
+};
+
 //solution 3 - trying different approach (horizontal approach)
 // the prefix guess is the whole first string
 
