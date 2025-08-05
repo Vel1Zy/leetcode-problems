@@ -1,1 +1,0 @@
-function newNode(val, next) {}
