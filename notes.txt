@@ -1,1 +1,3 @@
 Problem 88 to be improved.
+
+- Improve the file foldering (by difficulty)
